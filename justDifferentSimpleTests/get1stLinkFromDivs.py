@@ -13,11 +13,8 @@ search.send_keys("Selenium")
 search.send_keys(Keys.ENTER)
 time.sleep(7)
 
-
-
 search_results = driver.find_elements(By.CSS_SELECTOR, 'div.g')
 search_results[0].find_element(By.CSS_SELECTOR, 'a').click()
 time.sleep(3)
-
 
 driver.quit()
