@@ -16,13 +16,13 @@ ggl = wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@class='pmt_sign-in-
 ggl.click()
 
 email = wait.until(EC.element_to_be_clickable((By.ID, 'identifierId')))
-email.send_keys("saya.oryskhan@gmail.com")
+email.send_keys("")
 
 next = wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']")))
 next.click()
 
 pswrd = wait.until(EC.element_to_be_clickable((By.NAME, 'Passwd')))
-pswrd.send_keys("354263dS")
+pswrd.send_keys("")
 
 next = wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']")))
 next.click()

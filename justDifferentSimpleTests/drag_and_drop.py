@@ -16,12 +16,12 @@ main = "https://accounts.google.com/v3/signin/identifier?dsh=S-452688656%3A16796
 driver.get(main)
 
 gm = driver.find_element(By.ID, "identifierId")
-gm.send_keys("saya.oryskhan@gmail.com")
+gm.send_keys("")
 gm.send_keys(Keys.ENTER)
 time.sleep(8)
 
 psw = driver.find_element("name", "Passwd")
-psw.send_keys("354263dS")
+psw.send_keys("")
 psw.send_keys(Keys.ENTER) 
 
 driver.implicitly_wait(15)

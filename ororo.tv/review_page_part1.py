@@ -19,13 +19,13 @@ mrng.click()
 google = wait.until(EC.presence_of_element_located((By.PARTIAL_LINK_TEXT, "google"))).click()
 
 email = wait.until(EC.element_to_be_clickable((By.ID, 'identifierId')))
-email.send_keys("saya.oryskhan@gmail.com")
+email.send_keys("")
 
 next = wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']")))
 next.click()
 
 pswrd = wait.until(EC.element_to_be_clickable((By.NAME, 'Passwd')))
-pswrd.send_keys("kupRo0-nimqem-cyckiv")
+pswrd.send_keys("")
 
 next = wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']")))
 next.click()
