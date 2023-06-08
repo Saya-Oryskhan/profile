@@ -1,0 +1,10 @@
+Для запуска тестов на selenide(java) :
+- установите java
+- скачайте папку "greetgo-test" с репозитория https://github.com/Saya-Oryskhan/some-autotests-and-testcases/tree/main/g
+- перейдите в установленную папку и запустите "WikiTest.java" файл
+
+Для запуска тестов на selenium(python) :
+- установите python
+- установите selenium и фреймворки
+- установите драйвер веб браузера 
+- запустите "sing_selenium_python.py"
