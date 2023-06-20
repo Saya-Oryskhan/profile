@@ -26,11 +26,11 @@ for link in links:
             response = requests.head(url)
             status = response.status_code
             if status != 200:
-                print(f"Ссылка {url} повреждена. Статус: {status}")
+                print(f"Link {url} broken. Status code is: {status}")
         except requests.exceptions.RequestException as e:
-            print(f"Ошибка при обращении к ссылке {url}: {str(e)}")
+            print(f"Broken link/ERROR {url}: {str(e)}")
     else:
-        print("Неверный URL: None")
+        print("Problem with URL: None")
 
 time.sleep(7)
 driver.quit()
